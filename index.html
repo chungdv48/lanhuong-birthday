@@ -114,13 +114,75 @@
             right: 120px;
             color: #b78690;
         }
-        .bg-white{
+
+        .bg-white {
             height: 50px;
             width: 200px;
             background: #f6f6f6;
             position: relative;
             left: 270px;
             top: 340px;
+        }
+
+        .col-xs-12 {
+            padding: 2px !important;
+        }
+
+        @media only screen and (max-width: 400px) {
+            .img.img-responsive {
+                width: 100% !important;
+                height: 100% !important;
+            }
+
+            .top-right.xs,
+            .bottom-right.xs,
+            .top-left.xs,
+            .and.xs,
+            .center.xs,
+            .bottom-left.xs,
+            .bg-white.xs {
+                font-size: 18px;
+                right: 15px;
+            }
+
+            .top-right.xs {
+                top: 73px;
+            }
+
+            .bottom-right.xs {
+                top: 104px;
+            }
+
+            .top-left.xs {
+                top: 131px
+            }
+
+            .and.xs {
+                top: 157px;
+            }
+
+            .center.xs {
+                top: 182px;
+                left: unset;
+            }
+
+            .bottom-left.xs {
+                bottom: 1px;
+                right: 57px
+            }
+
+            .bg-white.xs {
+                height: 50px;
+                width: 155px;
+                background: #f6f6f6;
+                position: relative;
+                left: 154px;
+                top: 220px;
+            }
+
+            .modal-dialog {
+                margin: 0px;
+            }
         }
     </style>
 </head>
@@ -142,7 +204,7 @@
                 <span class="text-capitalize text-right bottom-align-text">
                     <p></p>
             </div>
-            <div id="bond" class="col-xs-8 col-md-8 col-sm-8 text-center">
+            <div id="bond" class="col-xs-12 col-md-8 col-sm-8 text-center">
                 <img data-toggle="modal" data-target="#myModal"
                     class="media-object img-responsive img-thumbnail bg-snow-tranparent-hidden"
                     src="Winter happy birthday.jpg" alt="80x80px" style="height: 360px">
@@ -172,14 +234,14 @@
                     </div>
                     <h1 class="heading text-danger bg-danger">
                         <div class="containeri">
-                            <p class="bg-white">Thân Ái</p>
+                            <p class="bg-white xs">Thân Ái</p>
                             <img class="img img-responsive" src="Snowmen-and-Sledding-Thank-You-Note.jpg.png">
-                            <p class="top-right">Lan Hương</p>
-                            <p class="bottom-right">pay attention here </p>
-                            <p class="top-left">i don't know say</p>
-                            <p class="and">snvv...</p>
-                            <p class="center">Happy birthday to you!</p>
-                            <p class="bottom-left">Chung Du</p>
+                            <p class="top-right xs">Lan Hương</p>
+                            <p class="bottom-right xs">pay attention here </p>
+                            <p class="top-left xs">i don't know say</p>
+                            <p class="and xs">snvv...</p>
+                            <p class="center xs">Happy birthday to you!</p>
+                            <p class="bottom-left xs">Chung Du</p>
                         </div>
                     </h1>
                     <div class="containeri">
